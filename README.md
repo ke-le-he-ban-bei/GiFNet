@@ -52,22 +52,14 @@ sample_list_path = "/your/actual/path/to/datasets/kinface/sample_list.txt"
 **Lines to modify: 37-38** - Update training data directory and label file
 ```python
 # Original (lines 37-38):
-# self.data_dir = "default_train_data_path"
-# self.label_file = "default_train_labels.csv"
-
-# Modified Example:
-self.data_dir = "/your/actual/path/to/datasets/kinface/train/images/"
-self.label_file = "/your/actual/path/to/datasets/kinface/train/labels.csv"
+parent_path = line[2].replace('D:/xx/xx/kinshipdatabase/', 'D:/xx/')
+child_path = line[3].replace('\n', '').replace('D:/xxx/xx/kinshipdatabase/', 'D:/xx/')
 ```
 
 ### 3. **Testing Dataset Configuration** → `utl/dataset_test.py`
 **Lines to modify: 40-41** - Update testing data directory and label file
 ```python
 # Original (lines 40-41):
-# self.data_dir = "default_test_data_path"
-# self.label_file = "default_test_labels.csv"
-
-# Modified Example:
-self.data_dir = "/your/actual/path/to/datasets/kinface/test/images/"
-self.label_file = "/your/actual/path/to/datasets/kinface/test/labels.csv"
+  parent_path = line[2].replace('./xx/data/kinshipdatabase/', './xx/')
+child_path = line[3].replace('\n', '').replace('./xx/data/kinshipdatabase/', './xx/')
 ```
