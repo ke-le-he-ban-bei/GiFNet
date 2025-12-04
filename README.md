@@ -63,3 +63,7 @@ child_path = line[3].replace('\n', '').replace('D:/xxx/xx/kinshipdatabase/', 'D:
   parent_path = line[2].replace('./xx/data/kinshipdatabase/', './xx/')
 child_path = line[3].replace('\n', '').replace('./xx/data/kinshipdatabase/', './xx/')
 ```
+🔧 Pretraining Options
+Masked Pretraining
+For masked image modeling pretraining, you can refer to the SimMIM implementation:
+https://github.com/microsoft/SimMIM
