@@ -1,4 +1,3 @@
-
 # GIFNet: Gender-Independent Kinship Verification Network via Fuzzy Disentangling and Multi-metric Inference
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
