@@ -1,17 +1,20 @@
-# xGIFNet - Medical Image Analysis Framework
+# GIFNet: Gender-Independent Kinship Verification Network via Fuzzy Disentangling and Multi-metric Inference
 
-## Overview
-xGIFNet is a deep learning framework for medical image analysis, supporting both training and inference workflows.
+Official implementation of **"Gender-independent Kinship Verification Network Via Fuzzy Disentangling and Multi-metric Inference"**.
 
-## Quick Start
+## 📖 Abstract
+This repository contains the implementation of GIFNet, a novel kinship verification framework that achieves gender-independent performance through fuzzy feature disentanglement and multi-metric inference mechanisms.
+
+## ✨ Features
+- **Gender-Independent Architecture**: Robust kinship verification across gender combinations
+- **Fuzzy Disentangling**: Separates gender-related features from kinship features
+- **Multi-Metric Inference**: Combines multiple similarity metrics for accurate verification
+- **End-to-End Pipeline**: Complete training and inference workflow
+
+## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.8+
-- PyTorch 1.9+
-- Required dependencies: `pip install -r requirements.txt`
-
-### Installation
 ```bash
-git clone https://github.com/your-username/xGIFNet.git
-cd xGIFNet
-pip install -r requirements.txt
+pip install torch torchvision
+pip install numpy pandas scikit-learn
+pip install opencv-python pillow
