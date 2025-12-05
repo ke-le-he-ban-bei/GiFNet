@@ -49,9 +49,9 @@ sample_list_path = "/your/actual/path/to/datasets/kinface/sample_list.txt"
 ```
 
 ### 2. **Training Dataset Configuration** → `utl/dataset_train.py`
-**Lines to modify: 37-38** - Update training data directory and label file
+**Lines to modify:67-68-** - Update training data directory and label file
 ```python
-# Original (lines 37-38):
+# Original (lines 68-69):
 parent_path = line[2].replace('D:/xx/xx/kinshipdatabase/', 'D:/xx/')
 child_path = line[3].replace('\n', '').replace('D:/xxx/xx/kinshipdatabase/', 'D:/xx/')
 ```
